@@ -1,5 +1,4 @@
 ﻿using Tyuiu.BedenkoAN.Sprint1.Task0.V30.Lib;
-
 namespace Tyuiu.BedenkoAN.Sprint1.Task0.V30.Test
 {
     [TestClass]
@@ -7,12 +6,10 @@ namespace Tyuiu.BedenkoAN.Sprint1.Task0.V30.Test
     {
         [TestMethod]
         public void ValidExpression()
-
         {
             DataService ds = new DataService();
             var res = ds.Calculate();
             Assert.AreEqual(96, res);
-
         }
     }
 }

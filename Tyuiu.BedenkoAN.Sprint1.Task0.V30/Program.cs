@@ -1,12 +1,10 @@
 ﻿using Tyuiu.BedenkoAN.Sprint1.Task0.V30.Lib;
-
 namespace Tyuiu.BedenkoAN.Sprint1.Task0.V30
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            
             DataService ds = new DataService();
 
             Console.Title = "Спринт #1 | Выполнил: Беденко А.Н. | ПИНб-26-1";
@@ -31,8 +29,5 @@ namespace Tyuiu.BedenkoAN.Sprint1.Task0.V30
             Console.WriteLine(ds.Calculate());
             Console.ReadLine();
         }
-        
-        
-
     }
 }
