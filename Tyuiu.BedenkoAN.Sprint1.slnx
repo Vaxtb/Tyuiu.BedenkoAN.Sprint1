@@ -10,8 +10,8 @@
     <Project Path="Tyuiu.BedenkoAN.Sprint1.Task1.V15/Tyuiu.BedenkoAN.Sprint1.Task1.V15.csproj" Id="d3243a7a-1846-4d91-b3ca-7b1d7c151d70" />
   </Folder>
   <Folder Name="/Task2/">
-    <Project Path="Tyuiu.BedenkoAN.Sprint1.Task2.V.Lib/Tyuiu.BedenkoAN.Sprint1.Task2.V13.Lib.csproj" Id="951005c7-3e84-4cfd-b68c-5b74d1ab7f70" />
-    <Project Path="Tyuiu.BedenkoAN.Sprint1.Task2.V.Test/Tyuiu.BedenkoAN.Sprint1.Task2.V13.Test.csproj" Id="f0c84fc9-1c15-4df9-aab4-a706c5524aac" />
-    <Project Path="Tyuiu.BedenkoAN.Sprint1.Task2.V/Tyuiu.BedenkoAN.Sprint1.Task2.V13.csproj" Id="6d862f90-4b2a-4774-b102-eac00e722625" />
+    <Project Path="Tyuiu.BedenkoAN.Sprint1.Task2.V13.Lib/Tyuiu.BedenkoAN.Sprint1.Task2.V13.Lib.csproj" Id="480b1da6-0e50-4a6c-b56d-9dc7e9bb63d6" />
+    <Project Path="Tyuiu.BedenkoAN.Sprint1.Task2.V13.Test/Tyuiu.BedenkoAN.Sprint1.Task2.V13.Test.csproj" Id="d34e018f-2acb-4601-b446-1b433138064e" />
+    <Project Path="Tyuiu.BedenkoAN.Sprint1.Task2.V13/Tyuiu.BedenkoAN.Sprint1.Task2.V13.csproj" Id="9bb3f3b3-9426-478a-ad21-032b1eca2b3c" />
   </Folder>
 </Solution>

@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Tyuiu.BedenkoAN.Sprint1.Task2.V.Lib\Tyuiu.BedenkoAN.Sprint1.Task2.V13.Lib.csproj" />
+    <ProjectReference Include="..\Tyuiu.BedenkoAN.Sprint1.Task2.V13.Lib\Tyuiu.BedenkoAN.Sprint1.Task2.V13.Lib.csproj" />
   </ItemGroup>
 
   <ItemGroup>

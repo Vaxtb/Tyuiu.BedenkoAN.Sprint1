@@ -5,7 +5,6 @@ namespace Tyuiu.BedenkoAN.Sprint1.Task2.V13
     {
         static void Main(string[] args)
         {
-
             Console.Title = "Спринт #1 | Выполнил: Беденко А.Н. | ПИНб-26-1";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
@@ -18,8 +17,8 @@ namespace Tyuiu.BedenkoAN.Sprint1.Task2.V13
             Console.WriteLine("* Известно расстояние в милях. Вычислить расстояние в километрах.         *");
             Console.WriteLine("* Ответ округлите до 3 знаков после запятой.                              *");
             Console.WriteLine("*                                                                         *");
-            
-           
+
+
             DataService ds = new DataService();
             int x;
             Console.WriteLine("***************************************************************************");
@@ -28,12 +27,12 @@ namespace Tyuiu.BedenkoAN.Sprint1.Task2.V13
             Console.WriteLine("Введите мили: ");
             x = Convert.ToInt32(Console.ReadLine());
 
-            
+
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("Километры в милях:" + ds.ConvertMilesToKm(x));
             Console.ReadLine();
-        }   
+        }
     }
 }
