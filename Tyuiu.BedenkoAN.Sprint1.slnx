@@ -14,4 +14,9 @@
     <Project Path="Tyuiu.BedenkoAN.Sprint1.Task2.V13.Test/Tyuiu.BedenkoAN.Sprint1.Task2.V13.Test.csproj" Id="d34e018f-2acb-4601-b446-1b433138064e" />
     <Project Path="Tyuiu.BedenkoAN.Sprint1.Task2.V13/Tyuiu.BedenkoAN.Sprint1.Task2.V13.csproj" Id="9bb3f3b3-9426-478a-ad21-032b1eca2b3c" />
   </Folder>
+  <Folder Name="/Task3/">
+    <Project Path="Tyuiu.BedenkoAN.Sprint1.Task3.V6.Lib/Tyuiu.BedenkoAN.Sprint1.Task3.V6.Lib.csproj" Id="f2c38ccc-ddf0-465b-acde-9211689379b6" />
+    <Project Path="Tyuiu.BedenkoAN.Sprint1.Task3.V6.Test/Tyuiu.BedenkoAN.Sprint1.Task3.V6.Test.csproj" Id="5a2717c1-ecb0-4953-bc02-177cb0d67baa" />
+    <Project Path="Tyuiu.BedenkoAN.Sprint1.Task3.V6/Tyuiu.BedenkoAN.Sprint1.Task3.V6.csproj" Id="1674c569-24f3-4c7b-a246-19ac9d4af2cb" />
+  </Folder>
 </Solution>
