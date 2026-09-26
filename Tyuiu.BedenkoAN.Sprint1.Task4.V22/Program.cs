@@ -8,7 +8,7 @@ namespace Tyuiu.BedenkoAN.Sprint1.Task4.V22
             Console.Title = "Спринт #1 | Выполнил: Беденко А.Н. | ПИНб-26-1";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
-            Console.WriteLine("* Тема: Операторы составного присваивания                                 *");
+            Console.WriteLine("* Тема: Class Math                                                        *");
             Console.WriteLine("* Задание #4                                                              *");
             Console.WriteLine("* Вариант #22                                                             *");
             Console.WriteLine("* Выполнил: Беденко Алексей Николаевич | ПИНб-26-1                        *");
