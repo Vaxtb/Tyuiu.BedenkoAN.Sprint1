@@ -26,10 +26,15 @@ namespace Tyuiu.BedenkoAN.Sprint1.Task6.V8
             Console.WriteLine("Введите слово:");
 
             string slovo = Console.ReadLine();
+            string[] words = slovo.Split(' ', StringSplitOptions.RemoveEmptyEntries);
+            
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine(ds.MoveLetterToEnd(slovo));
+            foreach (string word in words)
+            {
+                Console.Write(ds.MoveLetterToEnd(word) + " ");
+            }
             Console.ReadKey();
 
         }

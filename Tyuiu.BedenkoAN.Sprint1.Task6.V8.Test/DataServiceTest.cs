@@ -9,9 +9,9 @@ namespace Tyuiu.BedenkoAN.Sprint1.Task6.V8.Test
         public void TestMethod1()
         {
             DataService ds = new DataService();
-            string f = "привет";
+            string f = "привет мир";
             var res = ds.MoveLetterToEnd(f);
-            Assert.AreEqual("риветп", res);
+            Assert.AreEqual("риветп рми", res);
 
 
         }

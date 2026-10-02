@@ -11,6 +11,7 @@ namespace Tyuiu.BedenkoAN.Sprint1.Task6.V8.Lib
             string r = value.Substring(1);
             return r + w;
 
+
             
         }
     }
