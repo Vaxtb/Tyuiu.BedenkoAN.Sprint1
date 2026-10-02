@@ -6,13 +6,21 @@ namespace Tyuiu.BedenkoAN.Sprint1.Task6.V8.Lib
     public class DataService : ISprint1Task6V8
     {
         public string MoveLetterToEnd(string value)
+
+
         {
-            char w = value[0];
-            string r = value.Substring(1);
-            return r + w;
+            string[]  slovavmasiv= value.Split(' ', StringSplitOptions.RemoveEmptyEntries);
+
+            for (int i = 0; i < slovavmasiv.Length; i++)
+            {
+                
+                slovavmasiv[i] = slovavmasiv[i].Substring(1) + slovavmasiv[i][0];
+            }
+
+            return string.Join(" ", slovavmasiv);
 
 
-            
+
         }
     }
 }

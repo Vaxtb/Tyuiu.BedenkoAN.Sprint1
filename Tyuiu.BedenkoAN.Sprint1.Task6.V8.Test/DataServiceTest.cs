@@ -11,7 +11,7 @@ namespace Tyuiu.BedenkoAN.Sprint1.Task6.V8.Test
             DataService ds = new DataService();
             string f = "привет мир";
             var res = ds.MoveLetterToEnd(f);
-            Assert.AreEqual("риветп рми", res);
+            Assert.AreEqual("риветп ирм", res);
 
 
         }
